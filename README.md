@@ -9,7 +9,7 @@ The easiest way is to copy or soft-link the script into you path.
 If you want it to look nice, like in the example below, rename it to just `git-clean-branches` without the `.sh`.
 
 Git has a nice feature: If your path contains an executable starting with git-*
-you can use it withing your git-repository like this:
+you can use it within your git-repository like this:
 
 ```
 git clean-branches
@@ -23,7 +23,7 @@ The script does nothing without you explicitly giving the command. If you just p
 
 After first question for fetching from origin, you can press `?` for HELP.
 
-The fetching contains the --prune flag which will clean up the remote references. If the remote branch is deleted (like after a merged or closed PR), it will indicate with the word `gone` behind the remote-branch-name within the brackets. This can be used as an indicator your local branch can be deleted.
+The fetching uses the `--prune` flag which will clean up the remote references. If the remote branch is deleted (like after a merged or closed PR), it will indicate with the word `gone` behind the remote-branch-name within the brackets. This can be used as an indicator your local branch is needed no more.
 
 ## Contribution
 
