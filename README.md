@@ -23,6 +23,8 @@ The script does nothing without you explicitly giving the command. If you just p
 
 After first question for fetching from origin, you can press `?` for HELP.
 
+The fetching contains the --prune flag which will clean up the remote references. If the remote branch is deleted (like after a merged or closed PR), it will indicate with the word `gone` behind the remote-branch-name within the brackets. This can be used as an indicator your local branch can be deleted.
+
 ## Contribution
 
 If you want to contribute consider only PR which would be benefical for all users.
