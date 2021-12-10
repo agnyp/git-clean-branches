@@ -19,7 +19,7 @@ Of course you can also execute it directly within the repo.
 
 ## Usage
 
-The script does nothing without you explicitly giving the command. If you simply press <Enter> all the time, nothing will change.
+The script does nothing without you explicitly giving the command. If you just press _Enter_ all the time, no change will be made.
 
 After first question for fetching from origin, you can press `?` for HELP.
 
