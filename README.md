@@ -2,7 +2,7 @@
 
 Little script that helps you clean up the local-branch-mess, if you have one.
 
-## Usage
+## Install
 
 The easiest way is to copy or soft-link the script into you path.
 
@@ -16,6 +16,12 @@ git clean-branches
 ```
 
 Of course you can also execute it directly within the repo.
+
+## Usage
+
+The script does nothing without you explicitly giving the command. If you simply press <Enter> all the time, nothing will change.
+
+After first question for fetching from origin, you can press `?` for HELP.
 
 ## Contribution
 
