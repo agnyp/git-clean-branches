@@ -56,14 +56,14 @@ main() {
 
     prompt "$branch"
     case $command in
-      q     ) echo "Exiting program."; exit;;
-      [Nn]* ) continue;;
-      [yd]  )
+      q    ) echo "Exiting program."; exit;;
+      [Nn] ) continue;;
+      [yd] )
         echo "Deleting branch: $ref";
         git branch -D "$ref";
         echo
         ;;
-      *     ) continue;;
+      *    ) continue;;
     esac
   done 3< <( git branch --color=never -l -vv )
 }
